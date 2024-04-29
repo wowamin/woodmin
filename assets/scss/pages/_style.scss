@@ -16,3 +16,13 @@ body {
         flex-direction: column;
     }
   }
+
+  .wrap {
+    margin: 0 auto;
+  }
+
+  .container .row{
+    display: flex;
+    justify-content: space-between;
+
+  }
