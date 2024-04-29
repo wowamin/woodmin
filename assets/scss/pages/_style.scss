@@ -21,13 +21,17 @@ body {
     margin: 0 auto;
   }
 
-  .container .row{
+  .card{
+    margin: 10px;
+  }
+  
+  .row{
     display: flex;
     justify-content: space-around;
     flex-direction: wrap;
-    margin: 10px;
-
   }
+
+
   
   h3 {
     text-align: center;
@@ -38,5 +42,6 @@ body {
   }
 
   .card-body a{
-    align-items: center;
+    display: flex;
+    justify-content: center;
   }
