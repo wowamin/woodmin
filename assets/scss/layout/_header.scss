@@ -1,4 +1,27 @@
-.header{
-  background: #69F0AE;
-  font-size: 100px;
+nav {
+  background-color: #fff;
+  color: #444;
+  text-align: center;
+  padding: 0.5em;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  margin: 0 1em;
+}
+
+.container-fluid a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-nav a{
+  color: #888;
+}
+
+.dropdown-menu a{
+  width: 160px ;
 }
