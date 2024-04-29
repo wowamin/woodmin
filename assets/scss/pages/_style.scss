@@ -23,7 +23,8 @@ body {
 
   .container .row{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-direction: wrap;
 
   }
   
@@ -31,5 +32,6 @@ body {
     text-align: center;
     font-size: 50px;
     font-weight: bold;
+    padding: 10px 0 10px 0;
 
   }
