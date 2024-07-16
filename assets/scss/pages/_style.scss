@@ -1,47 +1,39 @@
+@media (max-width: 600px) {
+  nav {
+      flex-direction: column;
+  }
+}
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-  }
+  } 
   
-  
-  
-
-  
-  
-  
-  @media (max-width: 600px) {
-    nav {
-        flex-direction: column;
-    }
-  }
-
-  .wrap {
+.wrap {
     margin: 0 auto;
-  }
+ }
 
-  .card{
-    margin: 10px;
-  }
   
   .row{
     display: flex;
     justify-content: space-around;
-    flex-direction: wrap;
-  }
-
-
-  
-  h3 {
-    text-align: center;
-    font-size: 50px;
-    font-weight: bold;
     margin-top: 20px;
     margin-bottom: 20px;
   }
 
-  .card-body a{
-    display: flex;
-    justify-content: center;
+  
+  h3 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+
+  .border {
+    border: 1px solid #333;
+    margin-top: 30px;
   }
